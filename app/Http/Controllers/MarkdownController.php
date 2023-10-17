@@ -46,7 +46,7 @@ class MarkdownController extends Controller
         
         // Look for markdown chars to convert to HTML
         foreach ($arrayOfLines as $line) {
-            $resultFirstChar = $this->convert($line);
+            $resultFirstChar = $this->convert(trim($line));
             array_push($htmlTagIndex, $resultFirstChar);   
         }
 
