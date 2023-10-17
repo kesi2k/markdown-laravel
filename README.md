@@ -1,3 +1,7 @@
+Navigate to root directory and run server with ```php artisan serve```  <br> 
+From root folder run tests with command ```./vendor/bin/phpunit``` 
+
+
 Submit markdown in the form at endpoint on your localhost 'http://127.0.0.1:8000/markdown/create'
 
     This sample markdown input:
